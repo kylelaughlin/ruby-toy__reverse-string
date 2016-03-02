@@ -6,7 +6,7 @@ def reverse_characters(str)
         reverse_string = reverse_string + string_array[i]
         i -= 1
     end
-    return reverse_string
+    reverse_string
 end
 
 def reverse_words(str)
@@ -22,5 +22,5 @@ def reverse_words(str)
             i -= 1
         end
     end
-    return reverse_string
+    reverse_string
 end
